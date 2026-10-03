@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your saved Toy Haven favourites.">
+  <title>Toy Haven | Wishlist</title>
+  <link rel="icon" type="image/png" href="content/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="wishlist">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="site-header"></div>
+
+  <main id="main-content" class="section-shell page-section min-page">
+    <div class="page-intro">
+      <p class="eyebrow">Saved for later</p>
+      <h1>Your wishlist</h1>
+      <p>Keep your favourite toys together until you are ready to add them to your cart.</p>
+    </div>
+    <div id="wishlist-products" class="product-grid"></div>
+    <div id="wishlist-empty" class="empty-state" hidden>
+      <span aria-hidden="true">♡</span>
+      <h2>Your wishlist is empty</h2>
+      <p>Tap the heart on any toy to save it here.</p>
+      <a class="button primary-button" href="products.html">Browse toys</a>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>

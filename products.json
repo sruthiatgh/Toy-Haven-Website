@@ -1,0 +1,86 @@
+[
+  {
+    "id": "gojo-figure",
+    "name": "Satoru Gojo Figure",
+    "category": "Figures",
+    "age": "14+",
+    "price": 12000,
+    "rating": 4.9,
+    "badge": "Popular",
+    "featured": true,
+    "image": "content/products/gojo-figure.jpg",
+    "description": "A detailed display figure with a dramatic purple-effect base for collectors and anime fans."
+  },
+  {
+    "id": "wooden-chess-board",
+    "name": "Wooden Chess Board",
+    "category": "Games",
+    "age": "8+",
+    "price": 4500,
+    "rating": 4.7,
+    "badge": "Classic",
+    "featured": true,
+    "image": "content/products/wooden-chess-board.jpg",
+    "description": "A classic wooden chess set with a polished board and easy-to-handle playing pieces."
+  },
+  {
+    "id": "yellow-duck-plushie",
+    "name": "Yellow Duck Plushie",
+    "category": "Soft Toys",
+    "age": "3+",
+    "price": 2500,
+    "rating": 4.8,
+    "badge": "Cute Pick",
+    "featured": true,
+    "image": "content/products/yellow-duck-plushie.jpg",
+    "description": "A soft and cuddly yellow duck plushie with rosy cheeks and a tiny leaf detail."
+  },
+  {
+    "id": "hot-wheels-f1-pack",
+    "name": "Hot Wheels F1 Pack",
+    "category": "Vehicles",
+    "age": "6+",
+    "price": 18000,
+    "rating": 4.9,
+    "badge": "New",
+    "featured": true,
+    "image": "content/products/hot-wheels-f1-pack.jpg",
+    "description": "A five-car Formula 1 die-cast pack made for racing fans and display collections."
+  },
+  {
+    "id": "lego-cosmos-flowers",
+    "name": "Lego Cosmos Flowers",
+    "category": "Building Sets",
+    "age": "9+",
+    "price": 6500,
+    "rating": 4.8,
+    "badge": "Creative",
+    "featured": false,
+    "image": "content/products/lego-cosmos-flowers.webp",
+    "description": "A colourful 171-piece flower-building set for creative play and cheerful room décor."
+  },
+  {
+    "id": "mechanical-forklift",
+    "name": "Mechanical Forklift",
+    "category": "Building Sets",
+    "age": "8+",
+    "price": 8500,
+    "rating": 4.6,
+    "badge": "STEM Pick",
+    "featured": false,
+    "image": "content/products/mechanical-forklift.jpg",
+    "description": "A build-it-yourself mechanical forklift kit with moving parts and included tools."
+  },
+  {
+    "id": "barbie-doctor-kit",
+    "name": "Barbie Doctor Kit",
+    "category": "Pretend Play",
+    "age": "3+",
+    "price": 5500,
+    "rating": 4.7,
+    "badge": "Role Play",
+    "featured": false,
+    "image": "content/products/barbie-doctor-kit.avif",
+    "description": "A colourful doctor play set with medical accessories for caring and imaginative role play."
+  }
+]

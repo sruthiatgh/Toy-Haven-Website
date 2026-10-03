@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Review your Toy Haven shopping cart.">
+  <title>Toy Haven | Cart</title>
+  <link rel="icon" type="image/png" href="content/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="cart">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="site-header"></div>
+
+  <main id="main-content" class="section-shell page-section min-page">
+    <div class="page-intro">
+      <p class="eyebrow">Almost yours</p>
+      <h1>Your shopping cart</h1>
+      <p>Check your quantities before moving to checkout.</p>
+    </div>
+
+    <div id="cart-layout" class="cart-layout">
+      <section aria-labelledby="cart-items-title">
+        <h2 id="cart-items-title" class="sr-only">Cart items</h2>
+        <div id="cart-items" class="cart-items"></div>
+      </section>
+      <aside class="order-summary">
+        <h2>Order summary</h2>
+        <div class="summary-row"><span>Subtotal</span><strong id="cart-subtotal">LKR 0</strong></div>
+        <div class="summary-row"><span>Delivery</span><strong id="cart-delivery">LKR 0</strong></div>
+        <div class="summary-row discount-row" id="discount-row" hidden><span>Discount</span><strong id="cart-discount">- LKR 0</strong></div>
+        <div class="summary-row total-row"><span>Total</span><strong id="cart-total">LKR 0</strong></div>
+        <p class="delivery-note">Delivery is free when the subtotal is LKR 10,000 or more.</p>
+        <form id="promo-form" class="promo-form">
+          <label for="promo-code">Promo code</label>
+          <div>
+            <input id="promo-code" type="text" placeholder="Enter code">
+            <button type="submit">Apply</button>
+          </div>
+          <small>Try <strong>PLAY10</strong> for 10% off.</small>
+        </form>
+        <a id="checkout-link" class="button primary-button full-button" href="checkout.html">Continue to checkout</a>
+      </aside>
+    </div>
+
+    <div id="cart-empty" class="empty-state" hidden>
+      <span aria-hidden="true">🛒</span>
+      <h2>Your cart is empty</h2>
+      <p>Add a toy to begin your order.</p>
+      <a class="button primary-button" href="products.html">Shop toys</a>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>

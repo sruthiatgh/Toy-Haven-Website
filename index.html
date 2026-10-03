@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Toy Haven - fun toys, games and gifts for every kind of play.">
+  <title>Toy Haven | Home</title>
+  <link rel="icon" type="image/png" href="content/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Big fun for every age</p>
+        <h1>Find their next favourite toy.</h1>
+        <p>Discover figures, games, plushies, building sets and imaginative gifts chosen to make playtime special.</p>
+        <div class="hero-actions">
+          <a class="button primary-button" href="products.html">Shop all toys</a>
+          <a class="button secondary-button" href="#featured">See popular picks</a>
+        </div>
+      </div>
+      <div class="hero-logo-card">
+        <img src="content/logo.png" alt="Toy Haven logo with three tiny animals riding a toy train">
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="Shopping benefits">
+      <div><span aria-hidden="true">✓</span><strong>Quality toys</strong><small>Selected with care</small></div>
+      <div><span aria-hidden="true">🚚</span><strong>Islandwide delivery</strong><small>Free over LKR 10,000</small></div>
+      <div><span aria-hidden="true">💝</span><strong>Gift-ready picks</strong><small>For every celebration</small></div>
+    </section>
+
+    <section class="section-shell page-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Browse your way</p>
+          <h2>Shop by category</h2>
+        </div>
+      </div>
+      <div class="category-grid">
+        <a href="products.html?category=Figures" class="category-card coral-card"><span>🦸</span><strong>Figures</strong></a>
+        <a href="products.html?category=Games" class="category-card yellow-card"><span>♟️</span><strong>Games</strong></a>
+        <a href="products.html?category=Soft%20Toys" class="category-card pink-card"><span>🧸</span><strong>Soft Toys</strong></a>
+        <a href="products.html?category=Vehicles" class="category-card blue-card"><span>🏎️</span><strong>Vehicles</strong></a>
+        <a href="products.html?category=Building%20Sets" class="category-card green-card"><span>🧱</span><strong>Building Sets</strong></a>
+      </div>
+    </section>
+
+    <section class="day-pick-wrap page-section">
+      <div class="section-shell">
+        <div class="section-heading light-heading">
+          <div>
+            <p class="eyebrow">Something special</p>
+            <h2>Product of the day</h2>
+          </div>
+        </div>
+        <div id="product-of-day" class="day-pick"></div>
+      </div>
+    </section>
+
+    <section id="featured" class="section-shell page-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Customer favourites</p>
+          <h2>Popular at Toy Haven</h2>
+        </div>
+        <a class="text-link" href="products.html">View all toys</a>
+      </div>
+      <div id="featured-products" class="product-grid"></div>
+    </section>
+
+    <section class="story section-shell page-section">
+      <div class="story-visual" aria-hidden="true">
+        <span>★</span><span>☁</span><span>♥</span><span>✦</span>
+        <div class="story-box">PLAY!</div>
+      </div>
+      <div>
+        <p class="eyebrow">Our little story</p>
+        <h2>A happier place to find great toys</h2>
+        <p>Toy Haven brings together playful, creative and collectible favourites in one colourful shop. We keep the experience simple so families can find the right gift without the fuss.</p>
+        <a class="button secondary-button" href="feedback.html">Talk to us</a>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="section-shell newsletter-inner">
+        <div>
+          <p class="eyebrow">Toy box news</p>
+          <h2>Hear about new arrivals</h2>
+        </div>
+        <form id="newsletter-form" class="newsletter-form">
+          <label class="sr-only" for="newsletter-email">Email address</label>
+          <input id="newsletter-email" name="email" type="email" placeholder="you@example.com" required>
+          <button class="button dark-button" type="submit">Sign me up</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
