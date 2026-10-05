@@ -1,5 +1,5 @@
 :root {
-  --pink: #e63272;
+  --pink: #bd1f59;
   --pink-dark: #bd1f59;
   --pink-soft: #fff0f6;
   --cream: #efffc3;
@@ -169,7 +169,7 @@ input:focus-visible,
 select:focus-visible,
 textarea:focus-visible,
 summary:focus-visible {
-  outline: 3px solid var(--aqua);
+  outline: 3px solid var(--ink);
   outline-offset: 3px;
 }
 
@@ -544,7 +544,7 @@ summary:focus-visible {
 
 .story-visual > span {
   position: absolute;
-  color: rgba(46, 35, 64, 0.25);
+  color: var(--ink);
   font-size: 3rem;
 }
 
@@ -1209,7 +1209,7 @@ input[type="range"] {
   place-items: center;
   border-radius: 50%;
   color: var(--white);
-  background: #32a45d;
+  background: #247142;
   font-size: 2.5rem;
   font-weight: 900;
 }
@@ -1309,7 +1309,7 @@ input[type="range"] {
 }
 
 .star-rating label {
-  color: #d8cdd4;
+  color: #746b7d;
   cursor: pointer;
   font-size: 2.1rem;
   line-height: 1;
@@ -1318,7 +1318,13 @@ input[type="range"] {
 .star-rating label:hover,
 .star-rating label:hover ~ label,
 .star-rating input:checked ~ label {
-  color: #f5b800;
+  color: #946900;
+}
+
+.star-rating input:focus-visible + label {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+  border-radius: 4px;
 }
 
 .faq-list {
