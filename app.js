@@ -407,7 +407,7 @@ function renderCartPage() {
       '<img src="' + product.image + '" alt="' + product.name + '">' +
       '<div class="cart-item-info"><h3>' + product.name + '</h3><p>' + product.category + '</p><strong>' + formatPrice(product.price) + '</strong></div>' +
       '<div class="cart-item-controls">' +
-        '<div class="quantity-control" aria-label="Quantity for ' + product.name + '">' +
+        '<div class="quantity-control" role="group" aria-label="Quantity for ' + product.name + '">' +
           '<button type="button" data-change-quantity="' + product.id + '" data-amount="-1" aria-label="Reduce quantity">−</button>' +
           '<span>' + item.quantity + '</span>' +
           '<button type="button" data-change-quantity="' + product.id + '" data-amount="1" aria-label="Increase quantity">+</button>' +
